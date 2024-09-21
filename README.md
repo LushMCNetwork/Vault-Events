@@ -9,8 +9,8 @@ https://github.com/MilkBowl/VaultAPI
 ```kotlin
 repositories {
     maven {
-        name = "crystalsRepository"
-        url = uri("https://repo.crystals.gg/releases")
+        name = "lushRepository"
+        url = uri("https://repo.lushmc.fun/releases")
         credentials(PasswordCredentials::class)
     }
 }
