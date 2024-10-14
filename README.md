@@ -6,18 +6,21 @@ https://github.com/MilkBowl/VaultAPI
 
 ## Dependency information
 
-```kotlin
-repositories {
-    maven {
-        name = "lushRepository"
-        url = uri("https://repo.lushmc.fun/releases")
-        credentials(PasswordCredentials::class)
-    }
-}
+```xml
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
 
-dependencies {
-    implementation("net.crystals:VaultEvents:1.7.1")
-}
+<dependencies>
+    <dependency>
+        <groupId>com.github.AuroraLS3</groupId>
+        <artifactId>Vault-Events</artifactId>
+        <version>{commit}</version>
+    </dependency>
+</dependencies>
 ```
 
 plugin.yml:
